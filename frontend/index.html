@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Connexion - Star Citizen Tracker</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-white flex flex-col items-center justify-center min-h-screen">
+  <div class="w-full max-w-md p-8 space-y-6 bg-gray-800 rounded-lg shadow-lg">
+    <h1 class="text-2xl font-bold text-center text-cyan-400">Star Citizen Tracker</h1>
+    <input id="email" type="email" placeholder="Email" class="w-full p-3 rounded bg-gray-700 text-white" />
+    <input id="password" type="password" placeholder="Mot de passe" class="w-full p-3 rounded bg-gray-700 text-white" />
+    <div class="flex justify-between">
+      <button id="loginBtn" class="w-1/2 bg-cyan-500 hover:bg-cyan-600 text-black font-bold py-2 px-4 rounded mr-2">Connexion</button>
+      <button id="registerBtn" class="w-1/2 bg-gray-500 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded ml-2">Inscription</button>
+    </div>
+    <p id="message" class="text-center text-sm text-red-400"></p>
+  </div>
+  <script src="scripts/api.js"></script>
+</body>
+</html>
