@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Suivi - Popov</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white flex justify-center items-center min-h-screen">
+  <div class="text-center">
+    <h1 class="text-3xl font-bold mb-4">Popov - Star Citizen Tracker</h1>
+    <div class="mb-4">
+      <button onclick="startActivity('hauling')" class="btn">HAULING</button>
+      <button onclick="startActivity('mining')" class="btn">MINING</button>
+    </div>
+    <div id="status" class="text-green-400"></div>
+  </div>
+
+  <script src="tracker.js"></script>
+  <script>
+    const username = "popov";
+  </script>
+</body>
+</html>
